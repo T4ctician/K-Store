@@ -32,7 +32,7 @@ The solution was designed to meet strict requirements for High Availability (HA)
 
 The architecture follows AWS best practices for a 3-tier web application, leveraging managed services to reduce operational overhead.
 
-![Architecture Diagram]<img width="1443" height="890" alt="C3349C drawio white" src="https://github.com/user-attachments/assets/16b3eda6-527f-445b-a20b-829767390ce3" />
+![Architecture Diagram](<img width="1443" height="890" alt="C3349C drawio white" src="https://github.com/user-attachments/assets/16b3eda6-527f-445b-a20b-829767390ce3" />)
 
 
 ### AWS Services Implemented
@@ -53,7 +53,7 @@ The architecture follows AWS best practices for a 3-tier web application, levera
 
 Security was applied using a **"Defense in Depth"** strategy, ensuring no single point of failure compromise.
 
-![Security Diagram]<img width="593" height="891" alt="Picture1" src="https://github.com/user-attachments/assets/e0a3932d-ef8c-45ad-ba07-dcc4d06af47f" />
+![Security Diagram](<img width="593" height="891" alt="Picture1" src="https://github.com/user-attachments/assets/e0a3932d-ef8c-45ad-ba07-dcc4d06af47f" />)
 
 ### 1. Network Isolation
 * **Public Subnets:** Only house the Application Load Balancer (ALB).
