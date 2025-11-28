@@ -1,6 +1,5 @@
 # K-Store: DevOps E-Commerce Platform on AWS
 
-**Date:** July 2025  
 **Tech Stack:** AWS (ECS, EC2, RDS, EFS, VPC), Docker, MariaDB, PrestaShop  
 **Status:** Completed
 
