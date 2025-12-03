@@ -7,7 +7,7 @@
 
 **K-Store** is a resilient, auto-scaling e-commerce platform architected on AWS. This project demonstrates the migration of a monolithic PrestaShop application into a containerized, cloud-native environment using **Amazon ECS**.
 
-The solution was designed to meet strict requirements for High Availability (HA), security (Defense in Depth), and scalability to support a simulated expansion into the Asia Pacific region.
+The solution was designed to meet strict requirements for High Availability (HA), security (Defense in Depth), and scalability to support a simulated growth expansion into the market.
 
 ### Key Features
 * **Container Orchestration:** Deployed PrestaShop using AWS ECS with an EC2 launch type.
