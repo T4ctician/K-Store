@@ -52,7 +52,7 @@ The architecture follows AWS best practices for a 3-tier web application, levera
 
 Security was applied using a **"Defense in Depth"** strategy, ensuring no single point of failure compromise.
 
-![Security Diagram](https://github.com/user-attachments/assets/e0a3932d-ef8c-45ad-ba07-dcc4d06af47f)
+![Security Diagram](![Uploading 520030596-e0a3932d-ef8c-45ad-ba07-dcc4d06af47f.png…])
 
 ### 1. Network Isolation
 * **Public Subnets:** Only house the Application Load Balancer (ALB).
@@ -61,7 +61,7 @@ Security was applied using a **"Defense in Depth"** strategy, ensuring no single
 ### 2. Traffic Control (Security Groups)
 Traffic is strictly controlled via "Allow" rules (Deny by default):
 * **ALB:** Accepts HTTPS (443) from `0.0.0.0/0`.
-* **App Servers (ECS):** Only accept HTTP (80) from the *ALB Security Group*.
+* **App Servers (ECS):** Only accept HTTPS (443) from the *ALB Security Group*.
 * **Database (RDS):** Only accepts MySQL (3306) from the *App Server Security Group*.
 * **Storage (EFS):** Only accepts NFS (2049) from the *App Server Security Group*.
 
