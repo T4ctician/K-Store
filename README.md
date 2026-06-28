@@ -52,7 +52,7 @@ The architecture follows AWS best practices for a 3-tier web application, levera
 
 Security was applied using a **"Defense in Depth"** strategy, ensuring no single point of failure compromise.
 
-![Security Diagram]<img width="593" height="891" alt="520030596-e0a3932d-ef8c-45ad-ba07-dcc4d06af47f" src="https://github.com/user-attachments/assets/1d6b5531-3c92-4d86-8f2c-b4f33cabf547" />
+![Security Diagram](https://github.com/user-attachments/assets/1d6b5531-3c92-4d86-8f2c-b4f33cabf547)
 
 
 ### 1. Network Isolation
